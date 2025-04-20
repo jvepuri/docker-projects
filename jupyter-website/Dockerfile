@@ -11,7 +11,7 @@ RUN dnf update -y && \
 RUN cd /var/www/html
 
 # download webfiles
-RUN wget wget https://github.com/azeezsalu/jupiter/archive/refs/heads/main.zip
+RUN wget https://github.com/azeezsalu/jupiter/archive/refs/heads/main.zip
 
 # unzip folder
 RUN unzip main.zip
